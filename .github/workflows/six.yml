@@ -11,4 +11,4 @@ jobs:
         - name: print env variable
           run: echo "value is ${{ vars.UNAME  }}"
         - name: print my secret value
-          run: echo "password is ${{ secrets.password }}"
+          run: echo "password is ${{ secrets.PASSWD }}"
