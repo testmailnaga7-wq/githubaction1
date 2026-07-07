@@ -1,0 +1,13 @@
+name: workflow1
+on:
+  workflow_dispatch
+jobs:
+ myjob:
+   runs-on: ubuntu-latest
+   steps:
+     - name: print message
+       run: echo "Good Morning"
+     - name: another message
+       run: df -h
+   
+    
